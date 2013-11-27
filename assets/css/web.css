@@ -1,0 +1,15 @@
+td, th { padding: 10px; }
+
+.page {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form {
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+}
+input[type="text"]{
+  width: 50px;
+}

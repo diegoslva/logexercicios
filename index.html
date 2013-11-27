@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/web.css">
+  <title>Log Exercicios Fisicos</title>
+</head>
+<body>
+
+<main role="main">
+  <div class="page">
+      <fieldset>
+          <legend>ADD Exercicios</legend>
+            <form class="form">
+              <input type="text" id="tempo" placeholder="tempo"/>
+              <input type="date" id="date" />
+              <select id="atividade">
+                  <option>Corrida</option>
+                  <option>Biciclete</option>
+                  <option>Caminhada</option>
+                  <option>Futebol</option>
+                  <option>Natação</option>
+            </select>
+        <input type="button" id="BtnAdd" value="ADD" onclick="addRow()" /><br>
+</fieldset>
+
+
+</form>
+
+<table id= "results" border="1">
+    <tr>
+      <th>Tempo</th>
+      <th>Data</th>
+      <th>Atividade</th>
+    </tr>
+</table>
+  </div><!--page-->
+</main>
+
+<script type="text/javascript" src="assets/js/script.js">
+</script>
+
+</body>
+</html>
